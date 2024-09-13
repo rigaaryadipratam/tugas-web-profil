@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Riga Aryadi Peratama</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo-text"><b>Riga Aryadi</b></div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#home">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="mailto:rigaaryadipratama@gmail.com" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+					width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section id="home" class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Riga Aryadi
+					</h1>
+					<p>
+						Mahasiswa Matematika di Institut Teknologi Sepuluh Nopember, yang memiliki ketertarikan pada
+						bidang <i>Programming and Visual Computing</i> <span>Saya ingin menerapkan matematika pada
+							bidang teknologi yang dapat bermanfaat bagi banyak orang</span>
+					</p>
+					<div class="call-to-action">
+						<a href="https://docs.google.com/document/d/1YnRGn0ACqLq6QoRQ5y14DJIcC6dhb-aasN6_UtEY5HI/edit?usp=sharing"
+							target="_blank" class="button black">
+							View Resume
+						</a>
+						<a href="mailto:rigaaryadipratama@gmail.com" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+
+						<a href="https://www.linkedin.com/in/riga-aryadi-pratama-465077185/" target="_blank">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./imgs/Riga.png" alt="Riga Aryadi Pratama" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+				</div>
+			</div>
+		</section>
+
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Skills Table</h3>
+					<div class="skills-table-wrapper">
+						<table class="skills-table">
+							<tr>
+								<th>Frontend</th>
+								<th>Backend</th>
+							</tr>
+							<tr>
+								<td>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript</li>
+										<li>Bootstrap</li>
+										<li>Tailwind CSS</li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li>Node.js</li>
+										<li>Python</li>
+										<li>Java</li>
+										<li>PHP</li>
+										<li>Laravel</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						Mahasiswa Matematika di Institut Teknologi Sepuluh Nopember, yang memiliki ketertarikan pada
+						bidang
+						<i>Programming and Visual Computing</i> <span>Saya ingin menerapkan matematika pada bidang
+							teknologi yang dapat bermanfaat bagi banyak orang</span>
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="projects" class="work-experience container">
+			<h2>
+				<small>Recent</small>
+				Work Experience
+			</h2>
+			<div class="jobs">
+
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/bukakios.JPG" alt="PT Aplikasi Kreasi Indonesia" width="100%" />
+							<figcaption>
+								PT Aplikasi Kreasi Indonesia
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Fullstack Web Developer Internship (PT Aplikasi Kreasi Indonesia)</h3>
+					<div>2020-2021</div>
+					<p>Magang di startup financial technology yang berbasis di Pekanbaru, Riau. Mengembangkan aplikasi
+						web untuk kebutuhan operasional tim.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/skpb.JPG" alt="Direktorat Pendidikan ITS" width="100%" />
+							<figcaption>
+								Direktorat Pendidikan ITS
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Backend Developer Internship (Direktorat Pendidikan ITS)</h3>
+					<div>2024</div>
+					<p>Magang di salah satu direktorat di Institut Teknologi Sepuluh Nopember. Mengembangkan Aplikasi
+						Web untuk pengelolaan fasilitas dan fitur peminjaman ruangan yang dikelola oleh SKPB.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/fsad.JPG" alt="Dekanat FSAD ITS" width="100%" />
+							<figcaption>
+								Dekanat FSAD ITS
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Digital Marketing Internship (Dekanat FSAD ITS)</h3>
+					<div>2024</div>
+					<p>Magang di dekanat Fakultas Sains dan Analitika Data, ITS. Merancang brand identity dan GSM design
+						untuk social media dari fakultas ini.</p>
+				</article>
+			</div>
+
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/tdc.JPG" alt="TDC ITS" width="100%" />
+							<figcaption>
+								TDC ITS
+							</figcaption>
+						</div>
+					</figure>
+					<h3>President Directors TDC ITS Kabinet Askara Cita</h3>
+					<div>2023</div>
+					<p>Menjadi ketua atau President Directors di UKM Technopreneur Development Center ITS, sebuah
+						organisasi mahasiswa pada bidang bisnis di ITS.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/bemf.JPG" alt="BEM FSAD ITS" width="100%" />
+							<figcaption>
+								BEM FSAD ITS
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Wakil Ketua BEM FSAD Kabinet Ruang Sinergis</h3>
+					<div>2024</div>
+					<p>Menjadi wakil ketua di Badan Eksekutif Mahasiswa Fakultas Sains dan Analitika Data, Institut
+						Teknologi Sepuluh Nopember.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/bemi.JPG" alt="BEM ITS" width="100%" />
+							<figcaption>
+								BEM ITS
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Menteri Koordinator BEM ITS Kabinet Selaras</h3>
+					<div>2023-2024</div>
+					<p>Menteri Koordinator pada bidang Komunikasi, Informasi, dan Relasi BEM ITS. Membawahi dan
+						mengkoordinasi 3 kementerian pada bidang Kominrel.</p>
+				</article>
+			</div>
+
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/omits.JPG" alt="OMITS 16" width="100%" />
+							<figcaption>
+								OMITS 16
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Head of Website Development Subdivision OMITS 16</h3>
+					<div>2023</div>
+					<p>Kepala Sub Divisi di bidang pengembangan website Olimpiade Matematika ITS ke-16.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/more.jpg" alt="Work and Organization Experience" width="100%" />
+							<figcaption>
+								Work and Organization Experience
+							</figcaption>
+						</div>
+					</figure>
+					<h3>10+ Work and Organization Experience</h3>
+					<div></div>
+					<p>Berbagai pengalaman kerja dan organisasi dalam bidang teknologi, bisnis, dan manajemen yang
+						melibatkan pengembangan website, brand identity, dan kepemimpinan.</p>
+				</article>
+			</div>
+
+
+		</section>
+		<section id="projects" class="bento container">
+			<h2>
+				<small>
+					Previous
+				</small>
+				Completed Projects
+			</h2>
+			<div class="bento-grid">
+				<a href="https://omits-himatika.com" target="_blank" class="bento-item">
+					<img src="./imgs/project-omits.jpg" alt="BGCCI" width="100%" />
+				</a>
+				<a href="https://himadata-its.vercel.app/" target="_blank" class="bento-item">
+					<img src="./imgs/project-himadata.jpg" alt="Churhview" width="100%" />
+				</a>
+				<a href="https://www.its.ac.id/pendidikan/skpb/" target="_blank" class="bento-item">
+					<img src="./imgs/project-skpb.jpg" alt="Harley" width="100%" />
+				</a>
+				<a href="https://arek.its.ac.id/tdc/" target="_blank" class="bento-item">
+					<img src="./imgs/project-tdc.jpg" alt="Bunbury" width="100%" />
+				</a>
+				<a href="https://techsci-fsad.com" target="_blank" class="bento-item">
+					<img src="./imgs/project-techsci.jpg" alt="Running" width="100%" />
+				</a>
+			</div>
+
+		</section>
+
+		<section>
+			<a href="#" class="bento-item">
+				<div class="iframe-container">
+					<iframe width="100%" height="315"
+						src="https://www.youtube.com/embed/5BMafi0nNBc?si=0DrcOtVZonobBp3w" title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</a>
+
+		</section>
+
+
+
+		<section class="chatbot container">
+			<h2>
+				<small>
+					About my Education
+				</small>
+				Campus
+			</h2>
+			<div class="chatbot-blue">
+				<div class="chat-info">
+					<h3>Institut Teknologi Sepuluh Nopember</h3>
+					<p>Institut Teknologi Sepuluh Nopember (ITS) is a world-class Legal Entity State University (PTNBH)
+						that contributes to national independence and becomes a reference in education, research,
+						community service as well as the development of innovations, especially those that support
+						industry and maritime affairs.
+					</p>
+					<p>Institut Teknologi Sepuluh Nopember is attached to the history of the Republic of Indonesia's
+						struggle for independence. The establishment of ITS was pioneered by Indonesian independence
+						heroes since 1957, involving dr. Angka Nitisastro, Soedjasmono, Kyai Haji Yahya Hasyim, and
+						supported by Roeslan Abdulgani.
+					</p>
+					<p>
+						The new motto of ITS Advancing Humanity is to foster a new enthusiasm in creating innovation
+						through technology and knowledge for society. The motto was chosen to be a new motivation in
+						continuing an active role for human civilization according to ITS values. Vivat!
+					</p>
+					<a href="https://its.ac.id" target="_blank" class="button black">Visit to website</a>
+				</div>
+				<div class="chat-box">
+
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15830.538195771953!2d112.7949253!3d-7.282356!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa1323221a93%3A0x306c3c99adedb258!2sInstitut%20Teknologi%20Sepuluh%20Nopember!5e0!3m2!1sid!2sid!4v1726224188243!5m2!1sid!2sid"
+						width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+				</div>
+		</section>
+
+
+		<footer>
+			<center>
+				<div class="logo-text">@2024 By <b>Riga Aryadi Pratama</b></div>
+			</center>
+		</footer>
+
+
+		<!-- script JS untuk membantu responsifitas saat mobile -->
+		<script>
+			function toggleMobileMenu() {
+				document.getElementById("menu").classList.toggle("active");
+			}
+		</script>
+
+
+	</main>
+</body>
+
+</html>
